@@ -14,26 +14,26 @@ export default function Home() {
             className="btn"
             onClick={() => setValue((prevValue) => prevValue - 10)}
           >
-            - -
+            &lt; &lt;
           </button>
           <button
             className="btn"
             onClick={() => setValue((prevValue) => prevValue - 1)}
           >
-            -
+            &lt;
           </button>
           <p>{value}</p>
           <button
             className="btn"
             onClick={() => setValue((prevValue) => prevValue + 1)}
           >
-            +
+            &gt;
           </button>
           <button
             className="btn"
             onClick={() => setValue((prevValue) => prevValue + 10)}
           >
-            + +
+            &gt; &gt;
           </button>
         </div>
         <button className="btn w-full mt-2" onClick={() => setValue(0)}>
